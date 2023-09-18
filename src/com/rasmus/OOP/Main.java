@@ -5,12 +5,13 @@ import com.rasmus.OOP.model.Student;
 public class Main {
     public static void main(String[] args) {
 
+        System.out.println("Is this the first commit?");
+
         // Instantiate Object
         // Value inside params goes direct to Constructor
         Student benny = new Student("Benny", 15, true);
         Student frida = new Student("Frida", 22, false);
 
-        System.out.println(benny.name);
         System.out.println(benny.age);
         System.out.println(benny.isTired);
         if (benny.isTired) {
